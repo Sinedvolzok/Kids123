@@ -9,13 +9,33 @@
 /* Begin PBXBuildFile section */
 		5321DE77246AEEE3001B2C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DE76246AEEE3001B2C7B /* AppDelegate.swift */; };
 		5321DE79246AEEE3001B2C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DE78246AEEE3001B2C7B /* SceneDelegate.swift */; };
-		5321DE7B246AEEE3001B2C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DE7A246AEEE3001B2C7B /* ViewController.swift */; };
-		5321DE7E246AEEE3001B2C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5321DE7C246AEEE3001B2C7B /* Main.storyboard */; };
 		5321DE81246AEEE3001B2C7B /* Kids123.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5321DE7F246AEEE3001B2C7B /* Kids123.xcdatamodeld */; };
 		5321DE83246AEEEE001B2C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5321DE82246AEEEE001B2C7B /* Assets.xcassets */; };
 		5321DE86246AEEEE001B2C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5321DE84246AEEEE001B2C7B /* LaunchScreen.storyboard */; };
 		5321DE91246AEEEF001B2C7B /* Kids123Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DE90246AEEEF001B2C7B /* Kids123Tests.swift */; };
 		5321DE9C246AEEEF001B2C7B /* Kids123UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DE9B246AEEEF001B2C7B /* Kids123UITests.swift */; };
+		5321DEAD246AF520001B2C7B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEAC246AF520001B2C7B /* HomeController.swift */; };
+		5321DEAF246AF57C001B2C7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEAE246AF57C001B2C7B /* HomeView.swift */; };
+		5321DEB1246AFD8C001B2C7B /* MonsterSwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEB0246AFD8C001B2C7B /* MonsterSwipingController.swift */; };
+		5321DEB5246AFE1B001B2C7B /* MonsterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEB4246AFE1B001B2C7B /* MonsterPage.swift */; };
+		5321DEB7246AFE82001B2C7B /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEB6246AFE82001B2C7B /* PageCell.swift */; };
+		5321DEB9246AFF19001B2C7B /* UIView+anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEB8246AFF19001B2C7B /* UIView+anchors.swift */; };
+		5321DEBB246B1354001B2C7B /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEBA246B1354001B2C7B /* EyeView.swift */; };
+		5321DEBD246ECD80001B2C7B /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321DEBC246ECD7F001B2C7B /* NumberView.swift */; };
+		5380DA2D24864EA9001A1B8F /* introBGSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA2C24864EA9001A1B8F /* introBGSound.mp3 */; };
+		5380DA2F24865AD3001A1B8F /* buttonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA2E24865AD3001A1B8F /* buttonSound.mp3 */; };
+		5380DA3124865C9E001A1B8F /* monsterBGSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3024865C9E001A1B8F /* monsterBGSound.mp3 */; };
+		5380DA3324865D17001A1B8F /* jumpSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3224865D17001A1B8F /* jumpSound.mp3 */; };
+		5380DA3524865DCA001A1B8F /* failMonsterSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3424865DCA001A1B8F /* failMonsterSound.mp3 */; };
+		5380DA3924866773001A1B8F /* moveToStratchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3824866773001A1B8F /* moveToStratchSound.mp3 */; };
+		5380DA3B24866B6B001A1B8F /* endStratchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3A24866B6B001A1B8F /* endStratchSound.mp3 */; };
+		5380DA3D24866BC6001A1B8F /* mnomSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3C24866BC6001A1B8F /* mnomSound.mp3 */; };
+		5380DA3F24866DC7001A1B8F /* burpSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA3E24866DC7001A1B8F /* burpSound.mp3 */; };
+		5380DA43248670D9001A1B8F /* failRobotSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5380DA42248670D9001A1B8F /* failRobotSound.mp3 */; };
+		5381FBB324768AD900CE6F41 /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381FBB224768AD900CE6F41 /* MouthView.swift */; };
+		53BC6F0C2483C47200BB51F0 /* PaymentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC6F0B2483C46E00BB51F0 /* PaymentStruct.swift */; };
+		53BC6F0E2483C4C100BB51F0 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC6F0D2483C4C100BB51F0 /* ParentViewController.swift */; };
+		53BC6F122483CF3800BB51F0 /* +ParentVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC6F112483CF3800BB51F0 /* +ParentVCDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +59,6 @@
 		5321DE73246AEEE3001B2C7B /* Kids123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kids123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5321DE76246AEEE3001B2C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5321DE78246AEEE3001B2C7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5321DE7A246AEEE3001B2C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5321DE7D246AEEE3001B2C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5321DE80246AEEE3001B2C7B /* Kids123.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kids123.xcdatamodel; sourceTree = "<group>"; };
 		5321DE82246AEEEE001B2C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5321DE85246AEEEE001B2C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +69,28 @@
 		5321DE97246AEEEF001B2C7B /* Kids123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kids123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5321DE9B246AEEEF001B2C7B /* Kids123UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids123UITests.swift; sourceTree = "<group>"; };
 		5321DE9D246AEEEF001B2C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5321DEAC246AF520001B2C7B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5321DEAE246AF57C001B2C7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5321DEB0246AFD8C001B2C7B /* MonsterSwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterSwipingController.swift; sourceTree = "<group>"; };
+		5321DEB4246AFE1B001B2C7B /* MonsterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterPage.swift; sourceTree = "<group>"; };
+		5321DEB6246AFE82001B2C7B /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		5321DEB8246AFF19001B2C7B /* UIView+anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+anchors.swift"; sourceTree = "<group>"; };
+		5321DEBA246B1354001B2C7B /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
+		5321DEBC246ECD7F001B2C7B /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		5380DA2C24864EA9001A1B8F /* introBGSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = introBGSound.mp3; path = ../../../Kids123Sounds/introBGSound.mp3; sourceTree = "<group>"; };
+		5380DA2E24865AD3001A1B8F /* buttonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buttonSound.mp3; path = ../../../Kids123Sounds/buttonSound.mp3; sourceTree = "<group>"; };
+		5380DA3024865C9E001A1B8F /* monsterBGSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = monsterBGSound.mp3; path = ../../../Kids123Sounds/monsterBGSound.mp3; sourceTree = "<group>"; };
+		5380DA3224865D17001A1B8F /* jumpSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jumpSound.mp3; path = ../../../Kids123Sounds/jumpSound.mp3; sourceTree = "<group>"; };
+		5380DA3424865DCA001A1B8F /* failMonsterSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failMonsterSound.mp3; path = ../../../Kids123Sounds/failMonsterSound.mp3; sourceTree = "<group>"; };
+		5380DA3824866773001A1B8F /* moveToStratchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = moveToStratchSound.mp3; path = ../../../Kids123Sounds/moveToStratchSound.mp3; sourceTree = "<group>"; };
+		5380DA3A24866B6B001A1B8F /* endStratchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = endStratchSound.mp3; path = ../../../Kids123Sounds/endStratchSound.mp3; sourceTree = "<group>"; };
+		5380DA3C24866BC6001A1B8F /* mnomSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mnomSound.mp3; path = ../../../Kids123Sounds/mnomSound.mp3; sourceTree = "<group>"; };
+		5380DA3E24866DC7001A1B8F /* burpSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = burpSound.mp3; path = ../../../Kids123Sounds/burpSound.mp3; sourceTree = "<group>"; };
+		5380DA42248670D9001A1B8F /* failRobotSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failRobotSound.mp3; path = ../../../Kids123Sounds/failRobotSound.mp3; sourceTree = "<group>"; };
+		5381FBB224768AD900CE6F41 /* MouthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
+		53BC6F0B2483C46E00BB51F0 /* PaymentStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStruct.swift; sourceTree = "<group>"; };
+		53BC6F0D2483C4C100BB51F0 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		53BC6F112483CF3800BB51F0 /* +ParentVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ParentVCDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +141,14 @@
 		5321DE75246AEEE3001B2C7B /* Kids123 */ = {
 			isa = PBXGroup;
 			children = (
+				5321DEB3246AFDC4001B2C7B /* Model */,
+				5321DEAB246AF4BF001B2C7B /* View */,
+				5321DEA9246AF491001B2C7B /* Controller */,
 				5321DE76246AEEE3001B2C7B /* AppDelegate.swift */,
+				5321DEB8246AFF19001B2C7B /* UIView+anchors.swift */,
 				5321DE78246AEEE3001B2C7B /* SceneDelegate.swift */,
-				5321DE7A246AEEE3001B2C7B /* ViewController.swift */,
-				5321DE7C246AEEE3001B2C7B /* Main.storyboard */,
 				5321DE82246AEEEE001B2C7B /* Assets.xcassets */,
+				5380DA2B24864E5B001A1B8F /* Music&Sounds */,
 				5321DE84246AEEEE001B2C7B /* LaunchScreen.storyboard */,
 				5321DE87246AEEEE001B2C7B /* Info.plist */,
 				5321DE7F246AEEE3001B2C7B /* Kids123.xcdatamodeld */,
@@ -129,6 +172,63 @@
 				5321DE9D246AEEEF001B2C7B /* Info.plist */,
 			);
 			path = Kids123UITests;
+			sourceTree = "<group>";
+		};
+		5321DEA9246AF491001B2C7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53BC6F0A2483C3A800BB51F0 /* Payment */,
+				5321DEAC246AF520001B2C7B /* HomeController.swift */,
+				5321DEB0246AFD8C001B2C7B /* MonsterSwipingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5321DEAB246AF4BF001B2C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5321DEAE246AF57C001B2C7B /* HomeView.swift */,
+				5321DEB6246AFE82001B2C7B /* PageCell.swift */,
+				5381FBB224768AD900CE6F41 /* MouthView.swift */,
+				5321DEBA246B1354001B2C7B /* EyeView.swift */,
+				5321DEBC246ECD7F001B2C7B /* NumberView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5321DEB3246AFDC4001B2C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5321DEB4246AFE1B001B2C7B /* MonsterPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5380DA2B24864E5B001A1B8F /* Music&Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5380DA42248670D9001A1B8F /* failRobotSound.mp3 */,
+				5380DA3E24866DC7001A1B8F /* burpSound.mp3 */,
+				5380DA3C24866BC6001A1B8F /* mnomSound.mp3 */,
+				5380DA3A24866B6B001A1B8F /* endStratchSound.mp3 */,
+				5380DA3824866773001A1B8F /* moveToStratchSound.mp3 */,
+				5380DA3424865DCA001A1B8F /* failMonsterSound.mp3 */,
+				5380DA3224865D17001A1B8F /* jumpSound.mp3 */,
+				5380DA3024865C9E001A1B8F /* monsterBGSound.mp3 */,
+				5380DA2E24865AD3001A1B8F /* buttonSound.mp3 */,
+				5380DA2C24864EA9001A1B8F /* introBGSound.mp3 */,
+			);
+			path = "Music&Sounds";
+			sourceTree = "<group>";
+		};
+		53BC6F0A2483C3A800BB51F0 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				53BC6F0B2483C46E00BB51F0 /* PaymentStruct.swift */,
+				53BC6F0D2483C4C100BB51F0 /* ParentViewController.swift */,
+				53BC6F112483CF3800BB51F0 /* +ParentVCDelegate.swift */,
+			);
+			path = Payment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +335,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5380DA3B24866B6B001A1B8F /* endStratchSound.mp3 in Resources */,
+				5380DA3F24866DC7001A1B8F /* burpSound.mp3 in Resources */,
+				5380DA3924866773001A1B8F /* moveToStratchSound.mp3 in Resources */,
+				5380DA3324865D17001A1B8F /* jumpSound.mp3 in Resources */,
+				5380DA3D24866BC6001A1B8F /* mnomSound.mp3 in Resources */,
+				5380DA2D24864EA9001A1B8F /* introBGSound.mp3 in Resources */,
+				5380DA3124865C9E001A1B8F /* monsterBGSound.mp3 in Resources */,
+				5380DA3524865DCA001A1B8F /* failMonsterSound.mp3 in Resources */,
 				5321DE86246AEEEE001B2C7B /* LaunchScreen.storyboard in Resources */,
+				5380DA2F24865AD3001A1B8F /* buttonSound.mp3 in Resources */,
 				5321DE83246AEEEE001B2C7B /* Assets.xcassets in Resources */,
-				5321DE7E246AEEE3001B2C7B /* Main.storyboard in Resources */,
+				5380DA43248670D9001A1B8F /* failRobotSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +371,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5321DE7B246AEEE3001B2C7B /* ViewController.swift in Sources */,
+				5321DEAD246AF520001B2C7B /* HomeController.swift in Sources */,
 				5321DE81246AEEE3001B2C7B /* Kids123.xcdatamodeld in Sources */,
+				5381FBB324768AD900CE6F41 /* MouthView.swift in Sources */,
+				5321DEBB246B1354001B2C7B /* EyeView.swift in Sources */,
 				5321DE77246AEEE3001B2C7B /* AppDelegate.swift in Sources */,
+				5321DEB5246AFE1B001B2C7B /* MonsterPage.swift in Sources */,
+				5321DEAF246AF57C001B2C7B /* HomeView.swift in Sources */,
+				53BC6F122483CF3800BB51F0 /* +ParentVCDelegate.swift in Sources */,
+				5321DEB1246AFD8C001B2C7B /* MonsterSwipingController.swift in Sources */,
+				5321DEB7246AFE82001B2C7B /* PageCell.swift in Sources */,
+				53BC6F0C2483C47200BB51F0 /* PaymentStruct.swift in Sources */,
+				53BC6F0E2483C4C100BB51F0 /* ParentViewController.swift in Sources */,
 				5321DE79246AEEE3001B2C7B /* SceneDelegate.swift in Sources */,
+				5321DEBD246ECD80001B2C7B /* NumberView.swift in Sources */,
+				5321DEB9246AFF19001B2C7B /* UIView+anchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +421,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5321DE7C246AEEE3001B2C7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5321DE7D246AEEE3001B2C7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5321DE84246AEEEE001B2C7B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,15 +550,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = MVJ86Q9VWR;
 				INFOPLIST_FILE = Kids123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = SLON.Kids123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Kids123Profile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,15 +573,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = MVJ86Q9VWR;
 				INFOPLIST_FILE = Kids123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = SLON.Kids123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Kids123Profile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
